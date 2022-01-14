@@ -73,7 +73,7 @@
     \section{Introduction}
         Durant ces dernières années, les jeux multijoueurs qui se sont imposés furent les jeux de tirs ou les MOBA ("multiplayer online battle arena" en anglais ou "arène de bataille en ligne multijoueur" en français). Or, notre groupe "Guardians Studio" se veut gardien du plaisir de jeu pour chacune et chacun. C'est pourquoi notre projet, sous forme d'un jeu, consistera en une aventure scénarisée coopérative pour que tous les joueurs puissent vivre une expérience immersive et plaisante tout en renforçant leurs liens.
         \\
-       \par\textbf {Era Of Guardians : Timeless Village} est donc un RPG (Role Playing Game) scénarisé en 3D à la vue première personne dans lequel une équipe de 1 à 4 joueurs aura pour objectif de compléter des quêtes dans l'univers d'Astria afin de ramener à la vie le \textbf{Tidalar le Gardien}, pour rendre aux habitants d'Hazeltown le cours du temps qui dès lors s'était interrompu.
+       \par\textbf {Era Of Guardians : Timeless Village} est donc un RPG (Role Playing Game) scénarisé en 3D à la vue première personne dans lequel le joueur aura pour objectif de compléter des quêtes dans l'univers d'Astria afin de ramener à la vie \textbf{Tidalar le Gardien}, pour rendre aux habitants d'Hazeltown le cours du temps qui dès lors s'était interrompu.
        \\
        \par Ce projet, développé dans le cadre de notre semestre 2 à l'EPITA, est édité par notre groupe : \textbf{Guardians Studio} sous le moteur de jeu \textbf{Unity} utilisant principalement le langage \textbf{C\#}.
        \\
@@ -142,7 +142,7 @@
     \section{Era Of Guardians : Timeless Village}
         \subsection{Fondations du jeu}
             \subsubsection{Concepts et intérêts}
-                \textbf{Era Of Guardians : Timeless Village} est un RPG (Role Playing Game) qui se joue de 1 à 4 joueurs en coopération. L'équipe de joueurs est amenée, à travers une aventure scénarisée, à évoluer dans différents biomes (macroécosystèmes) pour récupérer 4 gemmes et combattre le Gardien du Temps afin de rétablir le court du temps qui s'est interrompu dans le village d'Hazeltown.
+                \textbf{Era Of Guardians : Timeless Village} est un RPG (Role Playing Game) qui se joue seul ou en coopération. L'équipe de joueur est amenée, à travers une aventure scénarisée, à évoluer dans différents biomes (macroécosystèmes) pour récupérer 4 gemmes et combattre le Gardien du Temps afin de rétablir le court du temps qui s'est interrompu dans le village d'Hazeltown.
                 \\
                 \par Ce jeu 3D se jouant à la vue première personne permettra au groupe d'apprendre à se servir du moteur de jeu Unity, d'implémenter un système multijoueur et d'intelligence artificielle pour le comportement des ennemis mais surtout apprendre à s'organiser pour mener à bien ce projet de groupe.
                 \\
@@ -233,14 +233,13 @@
             \subsubsection{Personnages}
                 
                 Concernant les mouvements, chaque personnage pourra courir, sauter, courir sur les murs et "dasher"(faire une vive accélération dans une direction). Ces aptitudes pourront être acquises au cours de l'aventure.
-                \\
-                De plus, en fonction de ses armes, il pourra attaquer et se défendre.
+                \par De plus, en fonction de ses armes, il pourra attaquer et se défendre.
                 Dès le lancement d'une compétence, un compte à rebours se déclenchera durant lequel il ne pourra pas relancer une compétence (voir Menus et interfaces).
                 \\
-                Pour comprendre toutes ces mécaniques, notre jeu débutera par un tutoriel qui en plus d'introduire les différentes fonctionnalités, marquera le début du scénario.
+                \par Pour comprendre toutes ces mécaniques, notre jeu débutera par un tutoriel qui en plus d'introduire les différentes fonctionnalités, marquera le début du scénario.
                 
             \subsubsection{Réseau \& multijoueur}
-                Nous avons le profond désir de pouvoir jouer de façon coopérative à \textbf{Era Of Guardians : Timeless Village}. Pour ce faire, nous allons implémenter un Photon Unity Networking (PUN) afin que les joueurs se retrouvent dans les mêmes instances de jeu.
+                Nous avons le profond désir de pouvoir jouer de façon coopérative à \textbf{EOG : Timeless Village}. Pour ce faire, nous allons implémenter un Photon Unity Networking (PUN) afin que les joueurs se retrouvent dans les mêmes instances de jeu.
                 
                 \par Cela permettra à chaque joueur de visualiser les actions de ses coéquipier et ainsi de s'entraider pour avancer dans l'aventure.
             
@@ -316,7 +315,7 @@
             \subsubsection{Bonus}
                 Cette section présente les éléments que nous allons implémenter "Si le temps nous le permet"; en effet, n'ayant guère d'expérience, nous préférons proposer des éléments à développer à terme si tous ce qui a été énoncé ci-dessus a déjà été mis en place.
                 \\
-                \par Personnage : il y aura 4 classes de personnages jouables afin d'augmenter les possibilités de combinaisons en multijoueur.
+                \par \textbf{Personnages} : il y aura 4 classes de personnages jouables afin d'augmenter les possibilités de combinaisons en multijoueur.
                 \begin{enumerate}
                 \setlength{\itemindent}{2em}
                     \item Corps à corps
@@ -331,12 +330,12 @@
                     \end{itemize}
                 \end{enumerate} 
                 
-                \par Sauvegarde : Implémenter un système de sauvegarde automatique à chaque fois qu'une zone est terminée en plus des sauvegardes faites par le joueur manuellement.
+                \par \textbf{Sauvegarde} : Implémenter un système de sauvegarde automatique à chaque fois qu'une zone est terminée en plus des sauvegardes faites par le joueur manuellement.
                 Ces sauvegardes seront enregistrés localement.
                 \\
-                \par Boss : Implémenter un mini boss par région pour signer la fin de toutes les quêtes faite par les joueurs dans la région.
+                \par \textbf{Boss} : Implémenter un mini boss par région pour signer la fin de toutes les quêtes faite par les joueurs dans la région.
                 \\
-                \par Multijoueur : Proposer des "énigmes" dans les différents biomes où la présence de plusieurs joueurs est obligatoire pour réussir à les compléter.
+                \par \textbf{Multijoueur} : Proposer des "énigmes" dans les différents biomes où la présence de plusieurs joueurs est obligatoire pour réussir à les compléter.
                 \\
                 
         \subsection{Communication sur le projet}
@@ -360,7 +359,7 @@
                 \\
                 \par Tout d'abord, pour héberger le site Web que nous allons créer pour le jeu, nous allons simplement l'hébergeur Github Pages, qui est gratuit. Par ailleurs, pour avoir des serveurs dédiés pour le multijoueur, nous utiliserons les services de Photon Unity Networking (PUN) qui nous permettent d'accueillir bien assez de joueurs sans frais. Enfin, pour ce qui est des assets de modélisation, nous allons les faire nous même ou en prendre quelques uns via l'Asset Store de Unity.
                 \\
-                \par Ainsi pour ce projet, nous ne pensons pas requérir de quelconques financements. Nous nous fixons du moins l'objectif de ne pas en avoir la nécessité. Concernant des éventuels bénéfices, nous ne miserons que sur des dons de joueurs satisfaits par l'état du jeu.
+                \par Ainsi pour ce projet, nous ne pensons pas requérir de quelconques financements. Nous nous fixons du moins l'objectif de ne pas en avoir la nécessité. Nous faisons ce projet dans un but non lucratif, les éventuels bénéfices ne proviendront que des dons de joueurs satisfaits par l'état du jeu.
         \clearpage
         
         \section{Réalisation du projet}
@@ -446,6 +445,10 @@
                         \\
                         
                         \hline
+                        \textbf{Installateur} & \cellcolor{cyan!60} S & & \cellcolor{red!50} R & 
+                        \\
+                        
+                        \hline
                         \rowcolor{lightgray} \multicolumn{5}{|l|}{\textbf{Communication}}
                         \\
                         
@@ -500,15 +503,15 @@
                     \\
                     
                     \hline
-                    \textbf{Terrains} & 40\% & 70\% & 100\% 
+                    \textbf{Terrains} & 33\% & 66\% & 100\% 
                     \\
                     
                     \hline
-                    \textbf{Modélisation 3D} & 40\% & 80\% & 100\%
+                    \textbf{Modélisation 3D} & 33\% & 70\% & 100\%
                     \\
                     
                     \hline
-                    \textbf{Scénario} & 30\% & 75\% & 100\%
+                    \textbf{Scénario} & 30\% & 60\% & 100\%
                     \\
                     
                     \hline
@@ -520,7 +523,7 @@
                     \\
                     
                     \hline
-                    \textbf{Joueur} & 50\% & 80\% & 100\%
+                    \textbf{Joueur} & 60\% & 80\% & 100\%
                     \\
                     
                     \hline
@@ -541,6 +544,9 @@
                     
                     \hline
                     \textbf{Cinématiques et trailers} & 10\% & 50\% & 100\%
+                    \\
+                    \hline
+                    \textbf{Installateur} & 0\% & 10\% & 100\%
                     \\
                     
                     \hline
@@ -611,7 +617,8 @@
                 \item \textbf{Inkscape}, pour le logo.
             \end{itemize}
         
+
     \section{Conclusion}
-        Pour conclure, ce projet consiste en la réalisation d'un jeu vidéo en C\# à l'aide du moteur de jeu Unity. Chaque membre du groupe s'est vu attribué nombre d'ajouts à implémenter dans le jeu en fonction de ses capacités et envies. Il s'agit pour nous tous d'un première expérience en terme de développement sur 6 mois et par groupe de 4 personnes. C'est un projet très ambitieux pour notre niveau, c'est donc pour cette raison que nous allons redoubler d'efforts afin de pouvoir proposer, en juin, un produit fini de qualité.
+        Pour conclure, ce projet consiste en la réalisation d'un jeu vidéo en C\# à l'aide du moteur de jeu Unity. Chaque membre du groupe s'est vu attribué un nombre d'ajouts à implémenter dans le jeu en fonction de ses capacités et envies. Il s'agit pour nous tous d'une première expérience en terme de développement sur 6 mois et par groupe de 4 personnes. C'est un projet très ambitieux pour notre niveau, c'est donc pour cette raison que nous allons redoubler d'efforts afin de pouvoir proposer, en juin, un produit fini de qualité.
     
 \end{document}
