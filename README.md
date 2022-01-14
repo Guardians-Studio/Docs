@@ -1,5 +1,5 @@
 # Docs
-All documentary files related to Era Of Guardians: TWO
+All documentary files related to Era Of Guardians: Timeless Village
 
 ## Produced by
 * Alexandre Privat {Ritosenpai}
