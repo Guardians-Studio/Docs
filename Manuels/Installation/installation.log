@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.22)  10 MAY 2022 19:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.22)  10 MAY 2022 21:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -341,20 +341,20 @@ File: images/7zip_menu.png Graphic file (type png)
 <use images/7zip_menu.png>
 Package pdftex.def Info: images/7zip_menu.png  used on input line 50.
 (pdftex.def)             Requested size: 369.03154pt x 132.79713pt.
-<images/fichiers.png, id=38, 157.33781pt x 115.93312pt>
+<images/fichiers.png, id=38, 269.50688pt x 49.68562pt>
 File: images/fichiers.png Graphic file (type png)
 <use images/fichiers.png>
 Package pdftex.def Info: images/fichiers.png  used on input line 59.
-(pdftex.def)             Requested size: 125.8704pt x 92.74661pt.
-<images/launcher.png, id=39, 948.54375pt x 535.2497pt>
-File: images/launcher.png Graphic file (type png)
-<use images/launcher.png>
-Package pdftex.def Info: images/launcher.png  used on input line 67.
-(pdftex.def)             Requested size: 379.41077pt x 214.09608pt.
+(pdftex.def)             Requested size: 215.60579pt x 39.74855pt.
  [2
 
  <./images/download_launcher.png> <./images/7zip_menu.png> <./images/fichiers.p
 ng>]
+<images/launcher.png, id=49, 948.54375pt x 535.2497pt>
+File: images/launcher.png Graphic file (type png)
+<use images/launcher.png>
+Package pdftex.def Info: images/launcher.png  used on input line 67.
+(pdftex.def)             Requested size: 379.41077pt x 214.09608pt.
 <images/erreur.png, id=50, 505.89pt x 257.96375pt>
 File: images/erreur.png Graphic file (type png)
 <use images/erreur.png>
@@ -365,19 +365,21 @@ File: images/dotnet.png Graphic file (type png)
 <use images/dotnet.png>
 Package pdftex.def Info: images/dotnet.png  used on input line 85.
 (pdftex.def)             Requested size: 450.1739pt x 262.27522pt.
- [3 <./images/launcher.png> <./images/erreur.png>] [4 <./images/dotnet.png>] (.
-/installation.aux)
+ [3
+
+ <./images/launcher.png> <./images/erreur.png>] [4 <./images/dotnet.png>] (./in
+stallation.aux)
 Package rerunfilecheck Info: File `installation.out' has not changed.
 (rerunfilecheck)             Checksum: C3718B575237C8EE49031A6E70F159B9;573.
  ) 
 Here is how much of TeX's memory you used:
  8699 strings out of 478233
  137590 string characters out of 5847836
- 432632 words of memory out of 5000000
+ 431632 words of memory out of 5000000
  26835 multiletter control sequences out of 15000+600000
  474335 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,8n,63p,504b,325s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 60i,8n,63p,504b,321s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
 live/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2022
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/texmf-dis
@@ -386,7 +388,7 @@ pe1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmti10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt1
 0.pfb>
-Output written on installation.pdf (4 pages, 874386 bytes).
+Output written on installation.pdf (4 pages, 873258 bytes).
 PDF statistics:
  105 PDF objects out of 1000 (max. 8388607)
  73 compressed objects within 1 object stream
