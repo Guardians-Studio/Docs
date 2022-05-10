@@ -1,1 +1,2 @@
-\contentsline {section}{\numberline {1}Pour installer le launcher}{1}{section.1}%
+\contentsline {section}{\numberline {1}Pour télécharger le launcher}{2}{section.1}%
+\contentsline {section}{\numberline {2}Après avoir téléchargé le launcher}{2}{section.2}%

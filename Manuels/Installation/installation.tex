@@ -1,20 +1,35 @@
 \documentclass[a4paper, 10pt]{article}
 
 \usepackage[utf8]{inputenc}
-\usepackage[scale=0.8]{geometry}
+\usepackage[margin=2.5cm]{geometry}
 \usepackage{hyperref}
 \usepackage{graphicx}
 
 \renewcommand*\contentsname{Table des matières}
 
-\title{\textbf{Manuel d'installation}}
-\author{Guardians Studio}
-\date{Année scolaire 2021-2022}
+\title{
+	\hrulefill
+	\\
+	Manuel d'installation
+	\\
+	\textbf{Guardians Studio} \\
+	\hrulefill
+
+}
+\author{Alexandre Privat - Erwann Lesech - Guillaume Jolivalt - Raphaël Heng}
+\date{EPITA Lyon $|$ Promo 2026}
 
 \begin{document}
 	\maketitle
+	\begin{figure}[ht]
+		\centering
+		\includegraphics[width=10cm, height=10cm]{images/logo.png}
+	\end{figure}
 	\tableofcontents
-	\section{Pour installer le launcher}
+	
+	\clearpage
+	
+	\section{Pour télécharger le launcher}
 	Rendez vous sur la page téléchargements de notre site :
 	\url{https://guardiansstudio.000webhostapp.com/download.php}.
 	Puis scrollez vers le bas jusqu'à voir le bouton de téléchargement du jeu et cliquez dessus pour lancer le téléchargement.
@@ -24,7 +39,35 @@
 		\includegraphics[scale=0.6]{images/download_launcher.png}
 		\caption{Bouton de téléchargement du jeu}
 	\end{figure}
+	
+	Le fichier devrait s'appeler \textit{Era\_Of\_Guardians\_TV\_Launcher.zip}.
+	
+	\section{Après avoir téléchargé le launcher}
+	Il faut ensuite décompresser le fichier \textit{Era\_Of\_Guardians\_TV\_Launcher.zip}. Vous pouvez utiliser le logiciel open-source \href{https://www.7-zip.fr/}{7-zip} pour le faire. Pour installer 7-zip, vous devez vous rendre sur la page puis télécharger l'exécutable correspondant à l'architecture de votre ordinateur (pour la plupart ce sera 64 bits). Ensuite il faudra lancer l'exécutable et vous pourrez extraire avec 7-zip comme ceci :
+	
+	\begin{figure}[ht]
+		\centering
+		\includegraphics[scale=0.6]{images/7zip_menu.png}
+		\caption{Menu contextuel de 7-zip}
+	\end{figure}
+	
+	Vous aurez ensuite un dossier \textit{Era\_Of\_Guardians\_TV\_Launcher}, ouvrez-le et vous trouverez ces 
+	fichiers : 
+	
+	\begin{figure}[ht]
+		\centering
+		\includegraphics[scale=0.8]{images/fichiers.png}
+		\caption{Fichiers du launcher}
+	\end{figure}
 
-	\section{Utiliser le launcher}
+	Il faut lancer le fichier intitulé \textit{GameLauncher.exe}. L'interface devrait ressembler à ceci :
+	
+	\begin{figure}[ht]
+		\centering
+		\includegraphics[scale=0.4]{images/launcher.png}
+		\caption{Interface du launcher}
+	\end{figure}
+
+	Si le bouton n'est pas "Play", il faut attendre que le logiciel vérifie la présence d'éventuelles mises à jour et les télécharge si besoin. Le numéro en bas à droite correspond à la version du jeu. Dès que "Play" apparaît, vous pouvez cliquer dessus pour lancer le jeu.
 	
 \end{document}
