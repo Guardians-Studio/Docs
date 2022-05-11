@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.22)  10 MAY 2022 21:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.22)  11 MAY 2022 17:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -210,24 +210,24 @@ File: l3backend-pdftex.def 2022-04-20 L3 backend support: PDF output (pdfTeX)
 (./installation.aux)
 \openout1 = `installation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -263,7 +263,7 @@ LaTeX Font Info:    ... okay on input line 22.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 22.
+Package hyperref Info: Link coloring OFF on input line 23.
 (c:/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -275,9 +275,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count273
 )
-LaTeX Info: Redefining \ref on input line 22.
-LaTeX Info: Redefining \pageref on input line 22.
-LaTeX Info: Redefining \nameref on input line 22.
+LaTeX Info: Redefining \ref on input line 23.
+LaTeX Info: Redefining \pageref on input line 23.
+LaTeX Info: Redefining \nameref on input line 23.
 
 (./installation.out) (./installation.out)
 \@outlinefile=\write3
@@ -307,15 +307,15 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 24.
+(Font)              <12> on input line 25.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 24.
+(Font)              <8> on input line 25.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 24.
+(Font)              <6> on input line 25.
 <images/logo.png, id=16, 123.3408pt x 123.3408pt>
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 26.
+Package pdftex.def Info: images/logo.png  used on input line 27.
 (pdftex.def)             Requested size: 284.59062pt x 284.59062pt.
 
 (./installation.toc
@@ -331,39 +331,41 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 {c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/logo.p
 ng>]
-<images/download_launcher.png, id=35, 484.81125pt x 243.91125pt>
+<images/download_launcher.png, id=34, 484.81125pt x 243.91125pt>
 File: images/download_launcher.png Graphic file (type png)
 <use images/download_launcher.png>
-Package pdftex.def Info: images/download_launcher.png  used on input line 39.
+Package pdftex.def Info: images/download_launcher.png  used on input line 40.
 (pdftex.def)             Requested size: 290.88899pt x 146.34787pt.
-<images/7zip_menu.png, id=37, 615.0478pt x 221.32687pt>
+LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <10> not available
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 44.
+<images/7zip_menu.png, id=36, 615.0478pt x 221.32687pt>
 File: images/7zip_menu.png Graphic file (type png)
 <use images/7zip_menu.png>
-Package pdftex.def Info: images/7zip_menu.png  used on input line 50.
+Package pdftex.def Info: images/7zip_menu.png  used on input line 51.
 (pdftex.def)             Requested size: 369.03154pt x 132.79713pt.
-<images/fichiers.png, id=38, 269.50688pt x 49.68562pt>
+<images/fichiers.png, id=37, 269.50688pt x 49.68562pt>
 File: images/fichiers.png Graphic file (type png)
 <use images/fichiers.png>
-Package pdftex.def Info: images/fichiers.png  used on input line 59.
+Package pdftex.def Info: images/fichiers.png  used on input line 60.
 (pdftex.def)             Requested size: 215.60579pt x 39.74855pt.
  [2
 
  <./images/download_launcher.png> <./images/7zip_menu.png> <./images/fichiers.p
 ng>]
-<images/launcher.png, id=49, 948.54375pt x 535.2497pt>
+<images/launcher.png, id=48, 948.54375pt x 535.2497pt>
 File: images/launcher.png Graphic file (type png)
 <use images/launcher.png>
-Package pdftex.def Info: images/launcher.png  used on input line 67.
+Package pdftex.def Info: images/launcher.png  used on input line 68.
 (pdftex.def)             Requested size: 379.41077pt x 214.09608pt.
-<images/erreur.png, id=50, 505.89pt x 257.96375pt>
+<images/erreur.png, id=49, 505.89pt x 257.96375pt>
 File: images/erreur.png Graphic file (type png)
 <use images/erreur.png>
-Package pdftex.def Info: images/erreur.png  used on input line 77.
+Package pdftex.def Info: images/erreur.png  used on input line 78.
 (pdftex.def)             Requested size: 252.94437pt x 128.98155pt.
-<images/dotnet.png, id=52, 1125.45468pt x 655.69969pt>
+<images/dotnet.png, id=51, 1125.45468pt x 655.69969pt>
 File: images/dotnet.png Graphic file (type png)
 <use images/dotnet.png>
-Package pdftex.def Info: images/dotnet.png  used on input line 85.
+Package pdftex.def Info: images/dotnet.png  used on input line 86.
 (pdftex.def)             Requested size: 450.1739pt x 262.27522pt.
  [3
 
@@ -373,25 +375,24 @@ Package rerunfilecheck Info: File `installation.out' has not changed.
 (rerunfilecheck)             Checksum: C3718B575237C8EE49031A6E70F159B9;573.
  ) 
 Here is how much of TeX's memory you used:
- 8699 strings out of 478233
- 137590 string characters out of 5847836
- 431632 words of memory out of 5000000
- 26835 multiletter control sequences out of 15000+600000
- 474335 words of font info for 45 fonts, out of 8000000 for 9000
+ 8703 strings out of 478233
+ 137653 string characters out of 5847836
+ 431633 words of memory out of 5000000
+ 26838 multiletter control sequences out of 15000+600000
+ 474920 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,8n,63p,504b,321s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
-live/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2022
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2022/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmti10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt1
-0.pfb>
-Output written on installation.pdf (4 pages, 873258 bytes).
+<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/tex
+live/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/texlive/2022
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb><c:/texlive/2022/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2022/texmf-dist/font
+s/type1/public/amsfonts/cm/cmssi10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmtt10.pfb>
+Output written on installation.pdf (4 pages, 846334 bytes).
 PDF statistics:
- 105 PDF objects out of 1000 (max. 8388607)
- 73 compressed objects within 1 object stream
+ 100 PDF objects out of 1000 (max. 8388607)
+ 70 compressed objects within 1 object stream
  15 named destinations out of 1000 (max. 500000)
  60 words of extra memory for PDF output out of 10000 (max. 10000000)
 
