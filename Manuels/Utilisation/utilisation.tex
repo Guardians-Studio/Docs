@@ -1,32 +1,187 @@
-\documentclass[a4paper, 10pt]{article}
-
+\documentclass[a4paper]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[margin=2.5cm]{geometry}
-\usepackage{hyperref}
 \usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{amsmath}
+\usepackage{indentfirst}
+\fboxsep=2pt
+\fboxrule=0.8pt
 
 \renewcommand*\contentsname{Table des matières}
 
 \title{
-	\hrulefill
+	\hrulefill 
 	\\
-	Manuel d'utilisation
+	Manuel d'utilisation 
 	\\
-	\textbf{Guardians Studio} \\
-	\hrulefill
+	\textbf{Guardians Studio}
 	
+	\hrulefill
 }
-\author{Alexandre Privat - Erwann Lesech - Guillaume Jolivalt - Raphaël Heng}
+
 \date{EPITA Lyon $|$ Promo 2026}
+\author{Alexandre Privat - Erwann Lesech - Guillaume Jolivalt - Raphaël Heng}
 
 \begin{document}
 	\maketitle
+	
 	\begin{figure}[ht]
 		\centering
 		\includegraphics[width=10cm, height=10cm]{images/logo.png}
 	\end{figure}
-	\tableofcontents
 	
 	\clearpage
+	\tableofcontents
+	\clearpage
+	
+	\section{Menus et interface du jeu}
+	\subsection{Menu Principal}
+	
+	\begin{figure}[!ht]
+		\centering
+		\includegraphics[scale=0.3]{images/menu_principal.png}
+		\caption{Menu Principal}
+	\end{figure}
 
+	\subsection{Menu Paramètres}
+	\begin{figure}[!ht]
+		\centering
+		\includegraphics[scale=0.3]{images/settings.png}
+		\caption{Menu Settings}
+	\end{figure}
+
+	\clearpage
+
+	\subsection{Menu Volume}
+	\begin{figure}[!ht]
+		\centering
+		\includegraphics[scale=0.3]{images/volume.png}
+		\caption{Menu Volume}
+	\end{figure}
+	
+	\subsection{Menu Résolution}
+	\begin{figure}[!ht]
+		\centering
+		\includegraphics[scale=0.3]{images/resolution.png}
+		\caption{Menu Résolution}
+	\end{figure}
+
+	\clearpage
+	
+	\subsection{Menu Play}
+	\begin{figure}[!ht]
+		\centering
+		\includegraphics[scale=0.3]{images/play.png}
+		\caption{Menu Play Game}
+	\end{figure}
+	
+	\subsection{Menu Multijoueur}
+	\begin{figure}[!ht]
+		\centering
+		\includegraphics[scale=0.3]{images/multiplayer.png}
+		\caption{Menu Multiplayer}
+	\end{figure}
+
+	\clearpage
+	
+	\subsection{Menu Create}
+	\begin{figure}[!ht]
+		\centering
+		\includegraphics[scale=0.3]{images/create.png}
+		\caption{Menu Create Game}
+	\end{figure}
+	
+	\subsection{Menu Join}
+	\begin{figure}[!ht]
+		\centering
+		\includegraphics[scale=0.3]{images/join.png}
+		\caption{Menu Join Game}
+	\end{figure}
+
+	\clearpage
+	
+	\subsection{Interface du jeu}
+	\begin{figure}[!ht]
+		\centering
+		\includegraphics[scale=0.3]{images/hud.png}
+		\caption{Interface du jeu}
+	\end{figure}
+	\begin{itemize}
+		\item En haut à gauche :
+		\begin{itemize}
+			\item \textbf{Barre rouge} : Barre de vie
+			\item \textbf{Barre orange} : Barre d'expérience
+			\item \textbf{Numéro} : Niveau
+		\end{itemize}
+		\item En bas à gauche : Messagerie
+		\item En bas : Objets
+	\end{itemize}
+	
+	\subsection{Menu Pause}
+	\begin{figure}[!ht]
+		\centering
+		\includegraphics[scale=0.25]{images/pause.png}
+		\caption{Menu Pause}
+	\end{figure}
+	
+	\section{Configuration des touches}
+	\subsection{Déplacements}
+	\begin{itemize}
+		\item \boxed{\text{\textbf{Z}}} : Avancer
+		\item \boxed{\text{\textbf{S}}} : Reculer
+		\item \boxed{\text{\textbf{Q}}} : Gauche
+		\item \boxed{\text{\textbf{D}}} : Droite
+		\item \boxed{\text{\textbf{Maj}}} : Courir
+		\item \boxed{\text{\textbf{Espace}}} : Sauter
+		\item \boxed{\text{\textbf{Ctrl}}} : S'accroupir
+	\end{itemize}
+	
+	\subsection{Inventaire}
+	Vous pouvez accéder aux différentes catégories d'objets avec les touches suivantes : 
+	\begin{itemize}
+		\item \boxed{\text{\textbf{X}}} : Objets des quêtes
+		\item \boxed{\text{\textbf{W}}} : Potions
+		\item \boxed{\text{\textbf{A}}} : Bouclier
+		\item \boxed{\text{\textbf{E}}} : Armes
+		\item \boxed{\text{\textbf{Molette}}} : Naviguer dans une catégorie
+	\end{itemize}
+	
+	\subsection{Interactions}
+	\begin{itemize}
+		\item \boxed{\text{\textbf{Entrée}}} : Activer/Désactiver le curseur pour cliquer sur la boîte de messagerie
+		\item \boxed{\text{\textbf{F}}} : Interagir
+		\item \boxed{\text{\textbf{Echap}}} : Afficher/Cacher le Menu Pause
+		\item \boxed{\text{\textbf{Clic gauche}}} :
+		\begin{itemize}
+			\item Bouclier : Brandir
+			\item Epée et Hache : Attaquer
+		\end{itemize}
+		\item \boxed{\text{\textbf{Clic droit}}} :
+		\begin{itemize}
+			\item Potions : Utiliser
+			\item Arc et Bâton Magique : Attaquer
+		\end{itemize}
+	\end{itemize}
+	
+	\section{Mécaniques de jeu avancées}
+	\subsection{Wall-Run}
+	Vous pouvez vous déplacer sur les murs.
+	\\
+	Pour ce faire vous pouvez sauter de profil vers un mur, puis vous déplacer avec les touches \boxed{\text{\textbf{Z}}} et \boxed{\text{\textbf{S}}} pour avancer ou reculer sur le mur.
+	\\
+	Note : Si vous avez sauté vers le mur en avançant, il faut utiliser la touche \boxed{\text{\textbf{Z}}} et pas \boxed{\text{\textbf{S}}}. Réciproquement si vous avez sauté en reculant.
+	\subsection{Wall-Jump}
+	\noindent Si vous êtes en train de glisser sur un mur, vous pouvez appuyer sur \boxed{\text{\textbf{Espace}}} pour sauter depuis le mur.
+	
+	\section{Changer de zone}
+	Pour changer de zone, il vous suffit d'avancer vers la porte de la zone de votre choix. Chaque porte est différentiable par la couleur de sa pancarte.
+	\\ 
+	Exemple : Pancarte verte = Langdale.
+	\begin{figure}[!h]
+		\centering
+		\includegraphics[scale=0.3]{images/porte_langdale.png}
+		\caption{Porte de téléportation vers Langdale}
+	\end{figure}
 \end{document}
