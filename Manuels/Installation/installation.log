@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.22)  11 MAY 2022 17:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.22)  3 JUN 2022 16:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8,8 +8,8 @@ LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-04-20>
 (c:/texlive/2022/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
-(c:/texlive/2022/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+(c:/texlive/2022/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
 \c@section=\count186
@@ -248,12 +248,12 @@ LaTeX Font Info:    ... okay on input line 23.
 * \topmargin=-38.1381pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=10.0pt
+* \topskip=12.0pt
 * \footskip=30.0pt
-* \marginparwidth=57.0pt
-* \marginparsep=11.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -307,92 +307,110 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 25.
+(Font)              <14.4> on input line 25.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 25.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 25.
-<images/logo.png, id=16, 123.3408pt x 123.3408pt>
+(Font)              <7> on input line 25.
+<images/logo.png, id=40, 123.3408pt x 123.3408pt>
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
 Package pdftex.def Info: images/logo.png  used on input line 27.
 (pdftex.def)             Requested size: 284.59062pt x 284.59062pt.
-
-(./installation.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 3.
-)
-\tf@toc=\write4
-\openout4 = `installation.toc'.
-
  [1
 
 {c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/logo.p
 ng>]
-<images/download_launcher.png, id=34, 484.81125pt x 243.91125pt>
+(./installation.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 2.
+)
+\tf@toc=\write4
+\openout4 = `installation.toc'.
+
+ [2
+
+]
+Overfull \hbox (45.0654pt too wide) in paragraph at lines 36--39
+\OT1/cmss/m/n/12 Rendez vous sur la page t^^Sel^^Sechargements de notre site : 
+[]$\OT1/cmtt/m/n/12 https : / / guardiansstudio . 000webhostapp .
+ []
+
+<images/download_launcher.png, id=67, 310.15875pt x 201.00093pt>
 File: images/download_launcher.png Graphic file (type png)
 <use images/download_launcher.png>
-Package pdftex.def Info: images/download_launcher.png  used on input line 40.
-(pdftex.def)             Requested size: 290.88899pt x 146.34787pt.
-LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <10> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 44.
-<images/7zip_menu.png, id=36, 615.0478pt x 221.32687pt>
+Package pdftex.def Info: images/download_launcher.png  used on input line 42.
+(pdftex.def)             Requested size: 186.09668pt x 120.60147pt.
+LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <12> not available
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 46.
+<images/7zip_menu.png, id=69, 615.0478pt x 221.32687pt>
 File: images/7zip_menu.png Graphic file (type png)
 <use images/7zip_menu.png>
-Package pdftex.def Info: images/7zip_menu.png  used on input line 51.
+Package pdftex.def Info: images/7zip_menu.png  used on input line 53.
 (pdftex.def)             Requested size: 369.03154pt x 132.79713pt.
-<images/fichiers.png, id=37, 269.50688pt x 49.68562pt>
+<images/fichiers.png, id=70, 269.50688pt x 49.68562pt>
 File: images/fichiers.png Graphic file (type png)
 <use images/fichiers.png>
-Package pdftex.def Info: images/fichiers.png  used on input line 60.
+Package pdftex.def Info: images/fichiers.png  used on input line 62.
 (pdftex.def)             Requested size: 215.60579pt x 39.74855pt.
- [2
+[3
 
  <./images/download_launcher.png> <./images/7zip_menu.png> <./images/fichiers.p
 ng>]
-<images/launcher.png, id=48, 948.54375pt x 535.2497pt>
+<images/launcher.png, id=81, 948.54375pt x 535.2497pt>
 File: images/launcher.png Graphic file (type png)
 <use images/launcher.png>
-Package pdftex.def Info: images/launcher.png  used on input line 68.
+Package pdftex.def Info: images/launcher.png  used on input line 70.
 (pdftex.def)             Requested size: 379.41077pt x 214.09608pt.
-<images/erreur.png, id=49, 505.89pt x 257.96375pt>
+<images/erreur.png, id=82, 505.89pt x 257.96375pt>
 File: images/erreur.png Graphic file (type png)
 <use images/erreur.png>
-Package pdftex.def Info: images/erreur.png  used on input line 78.
+Package pdftex.def Info: images/erreur.png  used on input line 80.
 (pdftex.def)             Requested size: 252.94437pt x 128.98155pt.
-<images/dotnet.png, id=51, 1125.45468pt x 655.69969pt>
+ [4
+
+ <./images/launcher.png> <./images/erreur.png>]
+<images/dotnet.png, id=91, 1125.45468pt x 655.69969pt>
 File: images/dotnet.png Graphic file (type png)
 <use images/dotnet.png>
-Package pdftex.def Info: images/dotnet.png  used on input line 86.
+Package pdftex.def Info: images/dotnet.png  used on input line 89.
 (pdftex.def)             Requested size: 450.1739pt x 262.27522pt.
- [3
 
- <./images/launcher.png> <./images/erreur.png>] [4 <./images/dotnet.png>] (./in
-stallation.aux)
+Overfull \hbox (45.0654pt too wide) in paragraph at lines 98--101
+\OT1/cmss/m/n/12 Rendez vous sur la page t^^Sel^^Sechargements de notre site : 
+[]$\OT1/cmtt/m/n/12 https : / / guardiansstudio . 000webhostapp .
+ []
+
+File: images/download_launcher.png Graphic file (type png)
+<use images/download_launcher.png>
+Package pdftex.def Info: images/download_launcher.png  used on input line 104.
+(pdftex.def)             Requested size: 186.09668pt x 120.60147pt.
+[5
+
+ <./images/dotnet.png>] [6] (./installation.aux)
 Package rerunfilecheck Info: File `installation.out' has not changed.
-(rerunfilecheck)             Checksum: C3718B575237C8EE49031A6E70F159B9;573.
+(rerunfilecheck)             Checksum: CF437AE6117031D9EB66D2BD38B983AC;1694.
  ) 
 Here is how much of TeX's memory you used:
- 8703 strings out of 478233
- 137653 string characters out of 5847836
- 431633 words of memory out of 5000000
- 26838 multiletter control sequences out of 15000+600000
- 474920 words of font info for 47 fonts, out of 8000000 for 9000
+ 8719 strings out of 478233
+ 137911 string characters out of 5847836
+ 431661 words of memory out of 5000000
+ 26846 multiletter control sequences out of 15000+600000
+ 475838 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,8n,63p,504b,321s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/tex
-live/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/texlive/2022
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb><c:/texlive/2022/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2022/texmf-dist/font
-s/type1/public/amsfonts/cm/cmssi10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmtt10.pfb>
-Output written on installation.pdf (4 pages, 846334 bytes).
+ 60i,8n,63p,560b,321s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/tex
+live/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb><c:/texlive/2022
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2022/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb><c:/texlive/2022/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmtt12.pfb>
+Output written on installation.pdf (6 pages, 828611 bytes).
 PDF statistics:
- 100 PDF objects out of 1000 (max. 8388607)
- 70 compressed objects within 1 object stream
- 15 named destinations out of 1000 (max. 500000)
- 60 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 138 PDF objects out of 1000 (max. 8388607)
+ 107 compressed objects within 2 object streams
+ 24 named destinations out of 1000 (max. 500000)
+ 108 words of extra memory for PDF output out of 10000 (max. 10000000)
 
