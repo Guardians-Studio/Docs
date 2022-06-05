@@ -1,9 +1,9 @@
 \contentsline {section}{\numberline {1}Version Portable}{3}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Pour télécharger le launcher}{3}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Après avoir téléchargé le launcher}{3}{subsection.1.2}%
-\contentsline {subsubsection}{\numberline {1.2.1}En cas d'erreur}{4}{subsubsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.3}Pour désinstaller le Launcher}{5}{subsection.1.3}%
-\contentsline {section}{\numberline {2}Version Setup}{5}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Pour télécharger le setup}{5}{subsection.2.1}%
+\contentsline {subsection}{\numberline {1.3}Pour désinstaller le Launcher}{4}{subsection.1.3}%
+\contentsline {section}{\numberline {2}Version Setup}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Pour télécharger le setup}{4}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Après avoir téléchargé le setup}{5}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Pour désinstaller le setup}{6}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.3}Pour désinstaller le setup}{5}{subsection.2.3}%
+\contentsline {section}{\numberline {3}En cas d'erreur après installation}{5}{section.3}%
